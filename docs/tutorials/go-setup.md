@@ -74,7 +74,7 @@ To follow along with this tutorial you'll need the following three things set up
 ### Step 3: Open the Dev Container
 
 1. Open the folder in VSCode.
-2. Ctrl+Shift+P and select **"Remote-Containers: Reopen in Container"**. You may need to select 'go' from a list and click through a few options, just hit 'ok'. Not sure why it did that for me <3.
+2. Ctrl+Shift+P and select **"Remote-Containers: Reopen in Container"**.
 
 ### Step 4: Verify Go Installation
 
@@ -92,14 +92,11 @@ To follow along with this tutorial you'll need the following three things set up
 
 
 ### Step 5: Create a New Go Project
-
 1. Initialize a Go module:
 
    ```title="bash"
    go mod init hello-comp423
    ```
-
-
 2. Create a new file named `main.go` with the following content:
 
    ```title="go"
@@ -111,7 +108,6 @@ To follow along with this tutorial you'll need the following three things set up
        fmt.Println("Hello, COMP423!")
    }
    ```
-
 3. Run the program directly:
 
    ```title="bash"
@@ -130,13 +126,10 @@ To follow along with this tutorial you'll need the following three things set up
 ### Step 6: Build it like Bob
 
 1. Build the binary:
-
+   This creates an executable file named `hello`.
    ```title="bash"
    go build -o hello main.go
    ```
-
-   This creates an executable file named `hello`.
-
 2. Run the built binary directly:
 
    ```title="bash"
@@ -148,9 +141,10 @@ To follow along with this tutorial you'll need the following three things set up
    ```
    Hello COMP423
    ```
-
 3. **Difference between `go run` and `go build`:**
+
    - `go run`: Compiles and runs the code in one step, but does not create a standalone executable.
+
    - `go build`: Compiles the code and generates a standalone executable, allowing the program to be run without `go` installed.
 
 !!! note
@@ -163,13 +157,11 @@ To follow along with this tutorial you'll need the following three things set up
    ```title="bash"
    git add .
    ```
-
 2. Commit the changes:
 
    ```title="bash"
    git commit -m "That was easy as a gogo-squeeze"
    ```
-
 3. Push it and you're done!
 
 !!! note
