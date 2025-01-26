@@ -166,3 +166,6 @@ To follow along with this tutorial you'll need the following three things set up
 
 !!! note
     Ensure Docker is running before attempting to reopen the project in a container.
+
+# Sources
+[comp423: Starting a Static Website Project with MkDocs](https://comp423-25s.github.io/resources/MkDocs/tutorial/#how-are-software-project-dependencies-managed)
