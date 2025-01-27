@@ -150,10 +150,10 @@ To follow along with this tutorial you'll need the following three things set up
 ```title="bash"
 git remote add origin https://github.com/<your-username>/go-program.git
 ```
-5. Before we add, commit, and push our changes, lets setup a README.md file and link our tutorial in it. Run these lines of code and replace "your-username" with your own.
+5. Before we add, commit, and push our changes, lets setup a README.md file and link our tutorial in it. Run these lines of code.
 ```title="bash"
 echo "# Go Program" > README.md
-echo "https://<your-username>.github.io/comp423-course-notes/" >> README.md
+echo "https://Arden-Feldt.github.io/comp423-course-notes/" >> README.md
 git add README.md
 git commit -m "Commit with README"
 ```
