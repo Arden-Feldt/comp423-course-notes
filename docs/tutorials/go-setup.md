@@ -115,10 +115,6 @@ To follow along with this tutorial you'll need the following three things set up
 ### Step 6: Build it like Bob
 
 1. Build the binary:
-<<<<<<< HEAD
-=======
-   This creates an executable file named `hello`.
->>>>>>> 1fbc571 (fix formatting)
    ```title="bash"
    go build -o hello main.go
    ```
